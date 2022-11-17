@@ -89,8 +89,9 @@ return SizedBox(
 
 Images:
 
-![Simulator Screen Shot - iPhone 13 - 2022-11-17 at 16 10 00](https://user-images.githubusercontent.com/98651593/202442870-a301e665-7c71-4c9d-ba7e-c09cfede4c14.png)
-![Simulator Screen Shot - iPhone 13 - 2022-11-17 at 16 11 14](https://user-images.githubusercontent.com/98651593/202442922-7c1e6a2c-1a7a-46b9-82a3-64c90c3b1fe0.png)
+![Simulator Screen Shot - iPhone 13 - 2022-11-17 at 16 10 00](https://user-images.githubusercontent.com/98651593/202451002-ab5ce483-f22c-4f36-ad4b-2f7dc5ad4fa9.png)
+![Simulator Screen Shot - iPhone 13 - 2022-11-17 at 16 32 38](https://user-images.githubusercontent.com/98651593/202451045-2dfadfc1-9804-4f7f-8a4a-66a4ca2a1e8a.png)
+
 
 
 
