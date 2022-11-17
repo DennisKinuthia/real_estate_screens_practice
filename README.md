@@ -1,7 +1,21 @@
 # Flutter UI Practice
 ### Two Sample Screens for a real estate app UI
 
-These UIs are from [RetroPortal Studio](https://www.youtube.com/c/RetroPortalStudio) 
+#### These UI Screens are from [RetroPortal Studio](https://www.youtube.com/c/RetroPortalStudio)
+
+## How To Test
+### Prerequisite
+1. Flutter/Dart knowledge
+2. Physical or virtual mobile device
+3. Flutter development environment
+4. Text Editor or IDE
+
+### Steps
+1. Clone this repository
+2. Open the project folder on a text editor or IDE
+3. Install dependencies run `flutter pub get` on the terminal console
+4. Connect device to the text editor or IDE
+5. Debug the project.
 
 ## Updates to the code
 
@@ -73,3 +87,9 @@ return SizedBox(
 ~~~
 
 Images:
+
+![Simulator Screen Shot - iPhone 13 - 2022-11-17 at 16 10 00](https://user-images.githubusercontent.com/98651593/202442870-a301e665-7c71-4c9d-ba7e-c09cfede4c14.png)
+![Simulator Screen Shot - iPhone 13 - 2022-11-17 at 16 11 14](https://user-images.githubusercontent.com/98651593/202442922-7c1e6a2c-1a7a-46b9-82a3-64c90c3b1fe0.png)
+
+
+
