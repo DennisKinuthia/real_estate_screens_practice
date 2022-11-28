@@ -1,14 +1,15 @@
 // ignore_for_file: prefer_const_literals_to_create_immutables
 
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 import 'package:real_estate/custom/border_box.dart';
-import 'package:real_estate/screens/description_screen.dart';
+import 'package:real_estate/routes/app_routes.dart';
 import 'package:real_estate/utils/constants.dart';
 import 'package:real_estate/utils/custom_functions.dart';
 import 'package:real_estate/utils/widget_function.dart';
 
 class RealEstateItem extends StatelessWidget {
-  const RealEstateItem({super.key, this.itemData});
+  const RealEstateItem({super.key, required this.itemData});
 
   final dynamic itemData;
 
@@ -25,16 +26,8 @@ class RealEstateItem extends StatelessWidget {
               ClipRRect(
                 borderRadius: BorderRadius.circular(25.0),
                 child: GestureDetector(
-                  onTap: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => Description(
-                          itemData: itemData,
-                        ),
-                      ),
-                    );
-                  },
+                  onTap: () => context.pushNamed(AppRoutes.details.name,
+                      extra: itemData),
                   child: Image.asset(itemData['image']),
                 ),
               ),

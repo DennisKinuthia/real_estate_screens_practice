@@ -1,6 +1,7 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
 
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 import 'package:real_estate/custom/border_box.dart';
 import 'package:real_estate/custom/option_button.dart';
 import 'package:real_estate/utils/constants.dart';
@@ -8,7 +9,7 @@ import 'package:real_estate/utils/custom_functions.dart';
 import 'package:real_estate/utils/widget_function.dart';
 
 class Description extends StatelessWidget {
-  const Description({super.key, this.itemData});
+  const Description({super.key, required this.itemData});
 
   final dynamic itemData;
 
@@ -41,9 +42,7 @@ class Description extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: <Widget>[
                             GestureDetector(
-                              onTap: () {
-                                Navigator.pop(context);
-                              },
+                              onTap: () => context.pop(),
                               child: BorderBox(
                                 width: 50.0,
                                 height: 50.0,
