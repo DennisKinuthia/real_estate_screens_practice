@@ -87,6 +87,8 @@ return SizedBox(
     );
 ~~~
 
+9. Migrate the app routing from Navigator 1.0 to GoRouter.
+
 Images:
 
 ![Simulator Screen Shot - iPhone 13 - 2022-11-17 at 16 10 00](https://user-images.githubusercontent.com/98651593/202451002-ab5ce483-f22c-4f36-ad4b-2f7dc5ad4fa9.png)
